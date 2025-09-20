@@ -18,13 +18,13 @@ export default function Home() {
         <
         header className = "flex items-center justify-between py-6" >
         <
-        h1 className = "text-3xl font-semibold" > Mini Biblioteca < /h1>   <
+        h1 className = "text-3xl font-semibold" > Mini Biblioteca < /h1>    <
         nav className = "space-x-4" >
         <
-        Link href = "/login" > Login < /Link>   <
-        Link href = "/register" > Registro < /Link>   <
-        /nav >  <
-        /header>
+        Link href = "/login" > Iniciar Sesion < /Link>    <
+        Link href = "/register" > Registro < /Link>    < /
+        nav > < /
+        header >
 
         <
         section >
@@ -38,12 +38,12 @@ export default function Home() {
                 h3 className = "font-semibold" > { book.title } < /h3>  <
                 p className = "text-sm" > Autor: { book.author } < /p>  <
                 p className = "text-sm" > Año: { book.year } < /p>  <
-                p className = "mt-2 text-sm" > { book.description } < /p>  <
-                /li>
+                p className = "mt-2 text-sm" > { book.description } < /p>  < /
+                li >
             ))
         } <
-        /ul>  <
-        /section>  <
+        /ul>  < /
+        section > <
         /div>
     )
 }
