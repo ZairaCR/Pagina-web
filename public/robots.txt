@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# BLOQUEAR APIs y rutas sensibles
+Disallow: /api/
+Disallow: /api/auth/
+Disallow: /api/books/
+
+# BLOQUEAR áreas de administración y autenticación
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+
+# BLOQUEAR archivos internos de Next.js
+Disallow: /_next/
+Disallow: /_astro/
+Disallow: /node_modules/
+
+# PERMITIR assets importantes (si los tienes)
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
